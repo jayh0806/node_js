@@ -76,8 +76,8 @@ var writeToFile = function (content) {
     content = JSON.parse(content)
 }
 
-var readmeGen = '# $:{content.title}
-## Table of Content
+var readmeGen = '# $:{content.title};
+##; TableofContent
 [Description](#description)
 [Installation](#installation)
 [Usage](#usage)
